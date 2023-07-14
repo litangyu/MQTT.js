@@ -1,4 +1,4 @@
-# mqtt-uni 
+# mqtt-uniapp
 ## Support uni-app base MQTT.JS-4.3.7
 
 > Usage
