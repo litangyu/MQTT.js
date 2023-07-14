@@ -1,3 +1,14 @@
+# mqtt-uni 
+## Support uni-app base MQTT.JS-4.3.7
+
+> Usage
+
+```
+Use 'uni' or 'unis' protocal for connect
+
+mqtt.connect('uni://localhost:1883', options)
+```
+
 ![mqtt.js](https://raw.githubusercontent.com/mqttjs/MQTT.js/137ee0e3940c1f01049a30248c70f24dc6e6f829/MQTT.js.png)
 =======
 
@@ -86,7 +97,7 @@ npm install mqtt --save
 
 For the sake of simplicity, let's put the subscriber and the publisher in the same file:
 
-```js
+​```js
 const mqtt = require('mqtt')
 const client  = mqtt.connect('mqtt://test.mosquitto.org')
 
